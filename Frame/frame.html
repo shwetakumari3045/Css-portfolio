@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple backgrounds</title>
+    <style>
+        #box1{
+            width: 500px;
+            height: 500px;
+           background-image: url(flower2.png),url(flower4.png),url(flower2.png),url(flower4.png);
+            background-position: left top, right top, right bottom, left bottom;
+            background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+</html>
